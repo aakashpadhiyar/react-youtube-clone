@@ -1,0 +1,19 @@
+.sidebar {
+  width: 240px !important;
+  /* flex: 0.2; */
+  position: sticky;
+}
+
+.sidebar > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 520px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid lightgray; */
+  z-index: 100;
+  background-color: white;
+  justify-content: space-between;
+  padding: 15px;
+  position: sticky;
+  top: 0;
+}
+
+.header__logo {
+  height: 25px;
+  object-fit: contain;
+  margin-left: 20px;
+}
+
+.header__input {
+  display: flex;
+  align-items: center;
+  width: 40%;
+  border: 1px solid black;
+}
+
+.header__left {
+  display: flex;
+  align-items: center;
+}
+
+.header__icons {
+  display: flex;
+  align-items: center;
+}
+
+.header__icon {
+  margin-right: 8px;
+  padding: 3px;
+}
+
+.header__input > input {
+  flex: 1;
+  border: none;
+}
+
+.header__inputButton {
+  width: 50px !important;
+  background-color: #fafafa;
+  border-left: 1px solid lightgray;
+  color: gray;
+}
+
+@media only screen and (max-width: 520px) {
+
+
+    .header__input {
+      display: none;
+    } 
+
+}
